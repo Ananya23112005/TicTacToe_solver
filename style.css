@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* Centering the container */
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 320px;
+}
+
+/* Game title */
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Game board styling */
+#game-board {
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Row container */
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling each cell */
+.cell {
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+ 
+}

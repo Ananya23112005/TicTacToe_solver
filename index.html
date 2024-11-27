@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="game-board">
+            <div class="row">
+                <button id="cell-0" class="cell" onclick="makeMove(0)"></button>
+                <button id="cell-1" class="cell" onclick="makeMove(1)"></button>
+                <button id="cell-2" class="cell" onclick="makeMove(2)"></button>
+            </div>
+            <div class="row">
+                <button id="cell-3" class="cell" onclick="makeMove(3)"></button>
+                <button id="cell-4" class="cell" onclick="makeMove(4)"></button>
+                <button id="cell-5" class="cell" onclick="makeMove(5)"></button>
+            </div>
+            <div class="row">
+                <button id="cell-6" class="cell" onclick="makeMove(6)"></button>
+                <button id="cell-7" class="cell" onclick="makeMove(7)"></button>
+                <button id="cell-8" class="cell" onclick="makeMove(8)"></button>
+            </div>
+        </div>
+        <button id="restart" onclick="restartGame()">Restart</button>
+        <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
